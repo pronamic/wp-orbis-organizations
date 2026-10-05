@@ -1,0 +1,8 @@
+parameters:
+    level: max
+    paths:
+        - admin/
+        - psr-4/
+        - orbis-organizations.php
+    scanFiles:
+        - stubs/posts-to-posts.php

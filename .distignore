@@ -11,29 +11,17 @@
 
 .wp-env.json
 
-.phpcs.dir.phpcompatibility.xml
-.phpcs.dir.xml
-
-.php-cs-fixer.dist.php
-
-.phive
-.phpdoc
-
-phpdoc.dist.xml
-
 phpcs.xml.dist
-phpmd.ruleset.xml
 
-phpunit.xml.dist
-
-phpstan.neon
-
-psalm.xml
-
-/vendor/bin/
+phpstan.neon.dist
 
 /deploy.php
 
+/rector.php
+
+/stubs/
+
 /build/
 /deploy/
+
 /node_modules/

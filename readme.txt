@@ -1,22 +1,22 @@
-=== Orbis Companies ===
+=== Orbis Organizations ===
 Contributors: pronamic, remcotolsma
-Donate link: https://www.pronamic.eu/
-Tags: orbis, deal
-Requires at least: 3.5
-Tested up to: 3.8
+Tags: orbis, organizations
+Requires at least: 6.7
+Tested up to: 7.1
+Requires PHP: 8.3
 Stable tag: 1.0.0
-License: Copyright (c) Pronamic
-License URI: https://www.pronamic.eu/copyright/
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-
+The Orbis Organizations plugin extends your Orbis environment with the option to manage organizations.
 
 == Description ==
 
 
-
 == Installation ==
 
-
+1. Upload the plugin folder to `/wp-content/plugins/`
+2. Activate the plugin through the "Plugins" menu in WordPress
 
 == Frequently Asked Questions ==
 
@@ -26,11 +26,12 @@ License URI: https://www.pronamic.eu/copyright/
 
 
 
-== Developers ==
-
-
-
 == Changelog ==
 
 = 1.0.0 =
-*	Initial release.
+* Initial release.
+
+== Upgrade Notice ==
+
+= 1.0.0 =
+Initial release.

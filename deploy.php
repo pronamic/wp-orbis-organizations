@@ -2,7 +2,7 @@
 /**
  * Deploy
  *
- * @package Pronamic\Orbis\Companies
+ * @package Pronamic\Orbis\Organizations
  */
 
 declare(strict_types=1);
@@ -11,16 +11,15 @@ namespace Deployer;
 
 require 'recipe/common.php';
 
-set( 'plugin_slug', 'orbis-companies' );
+set( 'plugin_slug', 'orbis-organizations' );
 
 set( 'build_path', './build/' );
 
-host( 'orbis.pronamic.nl' )
-	->set( 'hostname', 'esm7.siteground.biz' )
-	->set( 'remote_user', 'u155-jlog1cramrrx' )
-	->set( 'port', 18765 )
-	->set( 'deploy_path', '~/projects/wp-orbis-companies' )
-	->set( 'plugins_dir', '~/www/orbis.pronamic.nl/public_html/wp-content/plugins' );
+$deployer_import = getenv( 'DEPLOYER_IMPORT' );
+
+if ( false !== $deployer_import && '' !== $deployer_import ) {
+	import( $deployer_import );
+}
 
 /**
  * Build.
@@ -38,7 +37,7 @@ task(
 task(
 	'deploy:update_code',
 	function () {
-		upload( '{{build_path}}/orbis-companies/', '{{release_path}}' );
+		upload( '{{build_path}}/orbis-organizations/', '{{release_path}}' );
 	}
 );
 

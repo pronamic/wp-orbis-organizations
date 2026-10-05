@@ -1,0 +1,444 @@
+# Copyright (C) 2026 Pronamic
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Orbis Organizations 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/orbis-organizations\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-05T09:35:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: orbis-organizations\n"
+
+#. Plugin Name of the plugin
+#: orbis-organizations.php:11
+msgid "Orbis Organizations"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: orbis-organizations.php:12
+msgid "https://wp.pronamic.directory/plugins/orbis-organizations/"
+msgstr ""
+
+#. Description of the plugin
+#: orbis-organizations.php:13
+msgid "The Orbis Organizations plugin extends your Orbis environment with the option to manage organizations."
+msgstr ""
+
+#. Author of the plugin
+#: orbis-organizations.php:17
+msgid "Pronamic"
+msgstr ""
+
+#. Author URI of the plugin
+#: orbis-organizations.php:18
+msgid "https://www.pronamic.eu/"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:56
+msgid "Orbis ID"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:64
+#: psr-4/AdminOrganizationPostType.php:46
+msgid "Registration Number"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:72
+msgid "VAT Number"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:80
+msgid "E-Mail"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:88
+msgid "Accounting E-Mail"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:96
+msgid "Invoice E-Mail"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:104
+msgid "Invoice reference"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:112
+msgid "Website"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:120
+#: admin/meta-box-organization-details.php:123
+#: psr-4/AdminOrganizationPostType.php:44
+msgid "Address"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:125
+msgid "Postcode"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:126
+msgid "City"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:128
+msgid "Country"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:133
+msgid "IBAN"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:141
+msgid "Twitter Username:"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:149
+msgid "Facebook URL:"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:157
+msgid "LinkedIn URL:"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:165
+msgid "Payment Method"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:177
+msgid "— Select Payment Method —"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:189
+msgid "Invoice Shipping Method"
+msgstr ""
+
+#: admin/meta-box-organization-details.php:201
+msgid "— Select Invoice Shipping Method —"
+msgstr ""
+
+#: psr-4/AdminOrganizationPostType.php:43
+msgid "Title"
+msgstr ""
+
+#: psr-4/AdminOrganizationPostType.php:45
+msgid "Online"
+msgstr ""
+
+#: psr-4/AdminOrganizationPostType.php:47
+msgid "Author"
+msgstr ""
+
+#: psr-4/AdminOrganizationPostType.php:48
+msgid "Comments"
+msgstr ""
+
+#: psr-4/AdminOrganizationPostType.php:49
+msgid "Date"
+msgstr ""
+
+#: psr-4/AdminOrganizationPostType.php:133
+msgid "Organization Details"
+msgstr ""
+
+#: psr-4/ContentTypes.php:35
+#: psr-4/ContentTypes.php:37
+#: psr-4/ContentTypes.php:49
+#: psr-4/Plugin.php:125
+#: psr-4/Plugin.php:161
+msgid "Organizations"
+msgstr ""
+
+#: psr-4/ContentTypes.php:38
+#: psr-4/Plugin.php:144
+#: psr-4/Plugin.php:173
+msgid "Organization"
+msgstr ""
+
+#: psr-4/ContentTypes.php:39
+msgctxt "orbis_organization"
+msgid "Add New"
+msgstr ""
+
+#: psr-4/ContentTypes.php:40
+#: psr-4/Plugin.php:149
+#: psr-4/Plugin.php:178
+msgid "Add New Organization"
+msgstr ""
+
+#: psr-4/ContentTypes.php:41
+msgid "Edit Organization"
+msgstr ""
+
+#: psr-4/ContentTypes.php:42
+#: psr-4/Plugin.php:148
+#: psr-4/Plugin.php:177
+msgid "New Organization"
+msgstr ""
+
+#: psr-4/ContentTypes.php:43
+msgid "All Organizations"
+msgstr ""
+
+#: psr-4/ContentTypes.php:44
+msgid "View Organization"
+msgstr ""
+
+#: psr-4/ContentTypes.php:45
+msgid "Search Organizations"
+msgstr ""
+
+#: psr-4/ContentTypes.php:46
+#: psr-4/Plugin.php:146
+#: psr-4/Plugin.php:175
+msgid "No organizations found."
+msgstr ""
+
+#: psr-4/ContentTypes.php:47
+msgid "No organizations found in Trash."
+msgstr ""
+
+#: psr-4/ContentTypes.php:48
+msgid "Parent Organization:"
+msgstr ""
+
+#: psr-4/ContentTypes.php:68
+msgctxt "slug"
+msgid "organizations"
+msgstr ""
+
+#: psr-4/ContentTypes.php:79
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: psr-4/ContentTypes.php:80
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: psr-4/ContentTypes.php:81
+msgid "Search Categories"
+msgstr ""
+
+#: psr-4/ContentTypes.php:82
+msgid "All Categories"
+msgstr ""
+
+#: psr-4/ContentTypes.php:83
+msgid "Parent Category"
+msgstr ""
+
+#: psr-4/ContentTypes.php:84
+msgid "Parent Category:"
+msgstr ""
+
+#: psr-4/ContentTypes.php:85
+msgid "Edit Category"
+msgstr ""
+
+#: psr-4/ContentTypes.php:86
+msgid "Update Category"
+msgstr ""
+
+#: psr-4/ContentTypes.php:87
+msgid "Add New Category"
+msgstr ""
+
+#: psr-4/ContentTypes.php:88
+msgid "New Category Name"
+msgstr ""
+
+#: psr-4/ContentTypes.php:89
+msgid "Categories"
+msgstr ""
+
+#: psr-4/ContentTypes.php:94
+msgctxt "slug"
+msgid "organization-category"
+msgstr ""
+
+#: psr-4/ContentTypes.php:105
+msgctxt "taxonomy general name"
+msgid "Payment Methods"
+msgstr ""
+
+#: psr-4/ContentTypes.php:106
+msgctxt "taxonomy singular name"
+msgid "Payment Method"
+msgstr ""
+
+#: psr-4/ContentTypes.php:107
+msgid "Search Payment Methods"
+msgstr ""
+
+#: psr-4/ContentTypes.php:108
+msgid "All Payment Methods"
+msgstr ""
+
+#: psr-4/ContentTypes.php:109
+msgid "Parent Payment Method"
+msgstr ""
+
+#: psr-4/ContentTypes.php:110
+msgid "Parent Payment Method:"
+msgstr ""
+
+#: psr-4/ContentTypes.php:111
+msgid "Edit Payment Method"
+msgstr ""
+
+#: psr-4/ContentTypes.php:112
+msgid "Update Payment Method"
+msgstr ""
+
+#: psr-4/ContentTypes.php:113
+msgid "Add New Payment Method"
+msgstr ""
+
+#: psr-4/ContentTypes.php:114
+msgid "New Payment Method Name"
+msgstr ""
+
+#: psr-4/ContentTypes.php:115
+msgid "Payment Methods"
+msgstr ""
+
+#: psr-4/ContentTypes.php:120
+msgctxt "slug"
+msgid "payment-methods"
+msgstr ""
+
+#: psr-4/ContentTypes.php:132
+msgctxt "taxonomy general name"
+msgid "Invoice Shipping Methods"
+msgstr ""
+
+#: psr-4/ContentTypes.php:133
+msgctxt "taxonomy singular name"
+msgid "Invoice Shipping Method"
+msgstr ""
+
+#: psr-4/ContentTypes.php:134
+msgid "Search Invoice Shipping Methods"
+msgstr ""
+
+#: psr-4/ContentTypes.php:135
+msgid "All Invoice Shipping Methods"
+msgstr ""
+
+#: psr-4/ContentTypes.php:136
+msgid "Parent Invoice Shipping Method"
+msgstr ""
+
+#: psr-4/ContentTypes.php:137
+msgid "Parent Invoice Shipping Method:"
+msgstr ""
+
+#: psr-4/ContentTypes.php:138
+msgid "Edit Invoice Shipping Method"
+msgstr ""
+
+#: psr-4/ContentTypes.php:139
+msgid "Update Invoice Shipping Method"
+msgstr ""
+
+#: psr-4/ContentTypes.php:140
+msgid "Add New Invoice Shipping Method"
+msgstr ""
+
+#: psr-4/ContentTypes.php:141
+msgid "New Invoice Shipping Method Name"
+msgstr ""
+
+#: psr-4/ContentTypes.php:142
+msgid "Invoice Shipping Methods"
+msgstr ""
+
+#: psr-4/ContentTypes.php:147
+msgctxt "slug"
+msgid "invoice-shipping-methods"
+msgstr ""
+
+#: psr-4/Plugin.php:126
+msgid "Contacts"
+msgstr ""
+
+#: psr-4/Plugin.php:130
+msgid "Note"
+msgstr ""
+
+#: psr-4/Plugin.php:135
+msgid "Contact"
+msgstr ""
+
+#: psr-4/Plugin.php:136
+msgid "Search contact"
+msgstr ""
+
+#: psr-4/Plugin.php:137
+msgid "No contacts found."
+msgstr ""
+
+#: psr-4/Plugin.php:138
+msgid "Add Contact"
+msgstr ""
+
+#: psr-4/Plugin.php:139
+msgid "New Contact"
+msgstr ""
+
+#: psr-4/Plugin.php:140
+msgid "Add New Contact"
+msgstr ""
+
+#: psr-4/Plugin.php:141
+msgid "Please note: these are contacts who do not necessarily work at this organization. Handle the removal of connected contacts with great care. In many cases, deleting connected contacts is not desirable."
+msgstr ""
+
+#: psr-4/Plugin.php:145
+#: psr-4/Plugin.php:174
+msgid "Search organization"
+msgstr ""
+
+#: psr-4/Plugin.php:147
+#: psr-4/Plugin.php:176
+msgid "Add Organization"
+msgstr ""
+
+#: psr-4/Plugin.php:150
+msgid "Please note: this contact does not necessarily work at these organizations. Handle the removal of connected organizations with great care. In many cases, deleting connected organizations is not desirable."
+msgstr ""
+
+#: psr-4/Plugin.php:162
+msgid "Users"
+msgstr ""
+
+#: psr-4/Plugin.php:165
+msgid "User"
+msgstr ""
+
+#: psr-4/Plugin.php:166
+msgid "Search user"
+msgstr ""
+
+#: psr-4/Plugin.php:167
+msgid "No users found."
+msgstr ""
+
+#: psr-4/Plugin.php:168
+msgid "Add User"
+msgstr ""
+
+#: psr-4/Plugin.php:169
+msgid "New User"
+msgstr ""
+
+#: psr-4/Plugin.php:170
+msgid "Add New User"
+msgstr ""

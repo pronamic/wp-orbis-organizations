@@ -1,35 +1,28 @@
 {
-	"name": "orbis-companies",
+	"name": "@pronamic/wp-orbis-organizations",
 	"version": "1.0.0",
-	"description": "The Orbis Companies plugin extends your Orbis environment with the option to manage companies.",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/wp-orbis/wp-orbis-companies.git"
-	},
+	"description": "The Orbis Organizations plugin extends your Orbis environment with the option to manage organizations.",
+	"author": "Pronamic",
+	"license": "GPL-2.0-or-later",
 	"keywords": [
 		"orbis",
-		"deal",
-		"companies",
-		"offer",
-		"offers"
+		"organizations"
 	],
-	"author": {
-		"name": "Pronamic",
-		"email": "info@pronamic.nl",
-		"url": "http://www.pronamic.nl/"
+	"homepage": "https://github.com/pronamic/wp-orbis-organizations#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pronamic/wp-orbis-organizations.git"
 	},
-	"contributors": [
-		{
-			"name": "Remco Tolsma",
-			"email": "info@remcotolsma.nl",
-			"url": "http://www.remcotolsma.nl/"
-		}
-	],
-	"license": "GPL-3.0",
 	"bugs": {
-		"url": "https://github.com/wp-orbis/wp-orbis-companies/issues",
-		"email": "support@pronamic.nl"
+		"url": "https://github.com/pronamic/wp-orbis-organizations/issues"
 	},
-	"homepage": "https://github.com/wp-orbis/wp-orbis-companies",
-	"devDependencies": {}
+	"dependencies": {},
+	"devDependencies": {
+		"@wordpress/env": "^11.15.0",
+		"@wordpress/scripts": "^35.0.0"
+	},
+	"prettier": "@wordpress/prettier-config",
+	"scripts": {
+		"lint:pkg-json": "wp-scripts lint-pkg-json"
+	}
 }

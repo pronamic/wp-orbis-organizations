@@ -1,0 +1,18 @@
+{
+	"core": null,
+	"config": {
+		"SAVEQUERIES": true,
+		"WP_DEBUG_LOG": true,
+		"WPLANG": "nl_NL"
+	},
+	"phpVersion": "8.3",
+	"plugins": [
+		"https://downloads.wordpress.org/plugin/plugin-check.zip",
+		"https://downloads.wordpress.org/plugin/query-monitor.zip"
+	],
+	"mappings": {
+		"wp-content/plugins/orbis-organizations-dev": "./",
+		"wp-content/plugins/orbis-organizations": "./build/orbis-organizations/"
+	},
+	"testsEnvironment": false
+}
