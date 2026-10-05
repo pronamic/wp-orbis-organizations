@@ -2,6 +2,8 @@
 
 The Orbis Organizations plugin extends your Orbis environment with the option to manage organizations.
 
+This plugin is the successor of the [Orbis Companies](https://github.com/pronamic/wp-orbis-companies) plugin.
+
 ## Requirements
 
 - PHP 8.3+
