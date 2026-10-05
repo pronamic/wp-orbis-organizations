@@ -93,8 +93,8 @@ final class Plugin {
 				name VARCHAR(128) NOT NULL,
 				email VARCHAR(128) DEFAULT NULL,
 				PRIMARY KEY  (id),
-				KEY post_id (post_id),
-				KEY contact_id (contact_id)
+				UNIQUE KEY post_id (post_id),
+				UNIQUE KEY contact_id (contact_id)
 			) $charset_collate;
 			SQL;
 
