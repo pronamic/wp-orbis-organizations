@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-05T13:14:16+00:00\n"
+"POT-Creation-Date: 2026-10-05T17:24:37+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: orbis-organizations\n"
@@ -148,21 +148,22 @@ msgstr ""
 
 #: psr-4/ContentTypes.php:36
 #: psr-4/ContentTypes.php:52
-#: psr-4/Plugin.php:119
-#: psr-4/Plugin.php:154
+#: psr-4/Plugin.php:235
+#: psr-4/Plugin.php:270
+#: templates/person-organizations.php:21
 msgid "Organizations"
 msgstr ""
 
 #: psr-4/ContentTypes.php:37
-#: psr-4/Plugin.php:131
-#: psr-4/Plugin.php:173
+#: psr-4/Plugin.php:247
+#: psr-4/Plugin.php:289
 msgid "Organization"
 msgstr ""
 
 #: psr-4/ContentTypes.php:38
 #: psr-4/ContentTypes.php:39
-#: psr-4/Plugin.php:134
-#: psr-4/Plugin.php:176
+#: psr-4/Plugin.php:250
+#: psr-4/Plugin.php:292
 msgid "Add Organization"
 msgstr ""
 
@@ -171,8 +172,8 @@ msgid "Edit Organization"
 msgstr ""
 
 #: psr-4/ContentTypes.php:41
-#: psr-4/Plugin.php:135
-#: psr-4/Plugin.php:177
+#: psr-4/Plugin.php:251
+#: psr-4/Plugin.php:293
 msgid "New Organization"
 msgstr ""
 
@@ -189,8 +190,8 @@ msgid "Search Organizations"
 msgstr ""
 
 #: psr-4/ContentTypes.php:45
-#: psr-4/Plugin.php:133
-#: psr-4/Plugin.php:175
+#: psr-4/Plugin.php:249
+#: psr-4/Plugin.php:291
 msgid "No organizations found."
 msgstr ""
 
@@ -271,80 +272,127 @@ msgctxt "slug"
 msgid "organizations"
 msgstr ""
 
-#: psr-4/Plugin.php:120
+#: psr-4/Plugin.php:236
+#: templates/organization-users.php:32
 msgid "Users"
 msgstr ""
 
-#: psr-4/Plugin.php:123
+#: psr-4/Plugin.php:239
 msgid "User"
 msgstr ""
 
-#: psr-4/Plugin.php:124
+#: psr-4/Plugin.php:240
 msgid "Search user"
 msgstr ""
 
-#: psr-4/Plugin.php:125
+#: psr-4/Plugin.php:241
 msgid "No users found."
 msgstr ""
 
-#: psr-4/Plugin.php:126
+#: psr-4/Plugin.php:242
 msgid "Add User"
 msgstr ""
 
-#: psr-4/Plugin.php:127
+#: psr-4/Plugin.php:243
 msgid "New User"
 msgstr ""
 
-#: psr-4/Plugin.php:128
+#: psr-4/Plugin.php:244
 msgid "Add New User"
 msgstr ""
 
-#: psr-4/Plugin.php:132
-#: psr-4/Plugin.php:174
+#: psr-4/Plugin.php:248
+#: psr-4/Plugin.php:290
 msgid "Search organization"
 msgstr ""
 
-#: psr-4/Plugin.php:136
-#: psr-4/Plugin.php:178
+#: psr-4/Plugin.php:252
+#: psr-4/Plugin.php:294
 msgid "Add New Organization"
 msgstr ""
 
-#: psr-4/Plugin.php:155
-msgid "Contacts"
-msgstr ""
 
-#: psr-4/Plugin.php:159
+#: psr-4/Plugin.php:275
 msgid "Note"
 msgstr ""
 
-#: psr-4/Plugin.php:164
-msgid "Contact"
+#: psr-4/Plugin.php:280
+msgid "Person"
 msgstr ""
 
-#: psr-4/Plugin.php:165
-msgid "Search contact"
+#: psr-4/Plugin.php:281
+msgid "Search person"
 msgstr ""
 
-#: psr-4/Plugin.php:166
-msgid "No contacts found."
+#: psr-4/Plugin.php:282
+msgid "No persons found."
 msgstr ""
 
-#: psr-4/Plugin.php:167
-msgid "Add Contact"
+#: psr-4/Plugin.php:283
+msgid "Add Person"
 msgstr ""
 
-#: psr-4/Plugin.php:168
-msgid "New Contact"
+#: psr-4/Plugin.php:284
+msgid "New Person"
 msgstr ""
 
-#: psr-4/Plugin.php:169
-msgid "Add New Contact"
+#: psr-4/Plugin.php:285
+msgid "Add New Person"
 msgstr ""
 
-#: psr-4/Plugin.php:170
-msgid "Please note: these are contacts who do not necessarily work at this organization. Handle the removal of connected contacts with great care. In many cases, deleting connected contacts is not desirable."
+#: psr-4/Plugin.php:286
+msgid "Please note: these are persons who do not necessarily work at this organization. Handle the removal of connected persons with great care. In many cases, deleting connected persons is not desirable."
 msgstr ""
 
-#: psr-4/Plugin.php:179
-msgid "Please note: this contact does not necessarily work at these organizations. Handle the removal of connected organizations with great care. In many cases, deleting connected organizations is not desirable."
+#: psr-4/Plugin.php:295
+msgid "Please note: this person does not necessarily work at these organizations. Handle the removal of connected organizations with great care. In many cases, deleting connected organizations is not desirable."
+msgstr ""
+
+#: templates/organization-persons.php:109
+msgid "No persons connected."
+msgstr ""
+
+#: templates/organization-users.php:32
+msgid "No users connected."
+msgstr ""
+
+#: templates/person-organizations.php:54
+msgid "No organizations connected."
+msgstr ""
+
+#: templates/single-orbis_organization.php:27
+msgid "Details"
+msgstr ""
+
+#: templates/single-orbis_organization.php:59
+msgid "Description"
+msgstr ""
+
+#: templates/single-orbis_organization.php:79
+msgid "Additional Information"
+msgstr ""
+
+#: templates/single-orbis_organization.php:83
+msgid "Posted on"
+msgstr ""
+
+#: templates/single-orbis_organization.php:86
+msgid "Posted by"
+msgstr ""
+
+#: templates/single-orbis_organization.php:91
+msgid "Actions"
+msgstr ""
+
+#: templates/single-orbis_organization.php:92
+msgid "Edit"
+msgstr ""
+
+#: psr-4/Plugin.php:271
+#: templates/single-orbis_organization.php:37
+msgid "Persons"
+msgstr ""
+
+#: templates/archive-orbis_organization.php:35
+msgid "Name"
 msgstr ""

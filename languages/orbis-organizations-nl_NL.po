@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Orbis Organizations\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/orbis-organizations\n"
+"POT-Creation-Date: 2024-02-01T08:16:17+00:00\n"
+"PO-Revision-Date: 2026-10-05 19:24+0200\n"
 "Last-Translator: Remco Tolsma <info@remcotolsma.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-02-01T08:16:17+00:00\n"
-"PO-Revision-Date: 2026-10-05T13:14:17+00:00\n"
-"Language: nl_NL\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.9\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Plugin Name of the plugin
@@ -145,23 +145,17 @@ msgstr "Datum"
 msgid "Organization Details"
 msgstr "Organisatiedetails"
 
-#: psr-4/ContentTypes.php:36
-#: psr-4/ContentTypes.php:52
-#: psr-4/Plugin.php:119
-#: psr-4/Plugin.php:154
+#: psr-4/ContentTypes.php:36 psr-4/ContentTypes.php:52 psr-4/Plugin.php:235
+#: psr-4/Plugin.php:270 templates/person-organizations.php:21
 msgid "Organizations"
 msgstr "Organisaties"
 
-#: psr-4/ContentTypes.php:37
-#: psr-4/Plugin.php:131
-#: psr-4/Plugin.php:173
+#: psr-4/ContentTypes.php:37 psr-4/Plugin.php:247 psr-4/Plugin.php:289
 msgid "Organization"
 msgstr "Organisatie"
 
-#: psr-4/ContentTypes.php:38
-#: psr-4/ContentTypes.php:39
-#: psr-4/Plugin.php:134
-#: psr-4/Plugin.php:176
+#: psr-4/ContentTypes.php:38 psr-4/ContentTypes.php:39 psr-4/Plugin.php:250
+#: psr-4/Plugin.php:292
 msgid "Add Organization"
 msgstr "Organisatie toevoegen"
 
@@ -169,9 +163,7 @@ msgstr "Organisatie toevoegen"
 msgid "Edit Organization"
 msgstr "Organisatie bewerken"
 
-#: psr-4/ContentTypes.php:41
-#: psr-4/Plugin.php:135
-#: psr-4/Plugin.php:177
+#: psr-4/ContentTypes.php:41 psr-4/Plugin.php:251 psr-4/Plugin.php:293
 msgid "New Organization"
 msgstr "Nieuwe organisatie"
 
@@ -187,9 +179,7 @@ msgstr "Organisaties bekijken"
 msgid "Search Organizations"
 msgstr "Zoek organisaties"
 
-#: psr-4/ContentTypes.php:45
-#: psr-4/Plugin.php:133
-#: psr-4/Plugin.php:175
+#: psr-4/ContentTypes.php:45 psr-4/Plugin.php:249 psr-4/Plugin.php:291
 msgid "No organizations found."
 msgstr "Geen organisaties gevonden."
 
@@ -270,80 +260,124 @@ msgctxt "slug"
 msgid "organizations"
 msgstr "organisaties"
 
-#: psr-4/Plugin.php:120
+#: psr-4/Plugin.php:236 templates/organization-users.php:32
 msgid "Users"
 msgstr "Gebruikers"
 
-#: psr-4/Plugin.php:123
+#: psr-4/Plugin.php:239
 msgid "User"
 msgstr "Gebruiker"
 
-#: psr-4/Plugin.php:124
+#: psr-4/Plugin.php:240
 msgid "Search user"
 msgstr "Gebruiker zoeken"
 
-#: psr-4/Plugin.php:125
+#: psr-4/Plugin.php:241
 msgid "No users found."
 msgstr "Geen gebruikers gevonden."
 
-#: psr-4/Plugin.php:126
+#: psr-4/Plugin.php:242
 msgid "Add User"
 msgstr "Gebruiker toevoegen"
 
-#: psr-4/Plugin.php:127
+#: psr-4/Plugin.php:243
 msgid "New User"
 msgstr "Nieuwe gebruiker"
 
-#: psr-4/Plugin.php:128
+#: psr-4/Plugin.php:244
 msgid "Add New User"
 msgstr "Nieuw gebruiker toevoegen"
 
-#: psr-4/Plugin.php:132
-#: psr-4/Plugin.php:174
+#: psr-4/Plugin.php:248 psr-4/Plugin.php:290
 msgid "Search organization"
 msgstr "Organisatie zoeken"
 
-#: psr-4/Plugin.php:136
-#: psr-4/Plugin.php:178
+#: psr-4/Plugin.php:252 psr-4/Plugin.php:294
 msgid "Add New Organization"
 msgstr "Nieuwe organisatie toevoegen"
 
-#: psr-4/Plugin.php:155
-msgid "Contacts"
-msgstr "Contacten"
 
-#: psr-4/Plugin.php:159
+#: psr-4/Plugin.php:275
 msgid "Note"
 msgstr "Notitie"
 
-#: psr-4/Plugin.php:164
-msgid "Contact"
-msgstr "Contact"
+#: psr-4/Plugin.php:280
+msgid "Person"
+msgstr "Persoon"
 
-#: psr-4/Plugin.php:165
-msgid "Search contact"
-msgstr "Contact zoeken"
+#: psr-4/Plugin.php:281
+msgid "Search person"
+msgstr "Zoek persoon"
 
-#: psr-4/Plugin.php:166
-msgid "No contacts found."
-msgstr "Geen contacten gevonden."
+#: psr-4/Plugin.php:282
+msgid "No persons found."
+msgstr "Geen personen gevonden."
 
-#: psr-4/Plugin.php:167
-msgid "Add Contact"
-msgstr "Contact toevoegen"
+#: psr-4/Plugin.php:283
+msgid "Add Person"
+msgstr "Persoon toevoegen"
 
-#: psr-4/Plugin.php:168
-msgid "New Contact"
-msgstr "Nieuw contact"
+#: psr-4/Plugin.php:284
+msgid "New Person"
+msgstr "Nieuwe persoon"
 
-#: psr-4/Plugin.php:169
-msgid "Add New Contact"
-msgstr "Nieuwe contact toevoegen"
+#: psr-4/Plugin.php:285
+msgid "Add New Person"
+msgstr "Nieuwe persoon toevoegen"
 
-#: psr-4/Plugin.php:170
-msgid "Please note: these are contacts who do not necessarily work at this organization. Handle the removal of connected contacts with great care. In many cases, deleting connected contacts is not desirable."
-msgstr "Let op: dit zijn contacten die niet per se bij deze organisatie werken. Ga zorgvuldig om met het verwijderen van verbonden contacten. In veel gevallen is het verwijderen van verbonden contacten niet wenselijk."
+#: psr-4/Plugin.php:286
+msgid "Please note: these are persons who do not necessarily work at this organization. Handle the removal of connected persons with great care. In many cases, deleting connected persons is not desirable."
+msgstr "Let op: dit zijn personen die niet per se bij deze organisatie werken. Ga zorgvuldig om met het verwijderen van verbonden personen. In veel gevallen is het verwijderen van verbonden personen niet wenselijk."
 
-#: psr-4/Plugin.php:179
-msgid "Please note: this contact does not necessarily work at these organizations. Handle the removal of connected organizations with great care. In many cases, deleting connected organizations is not desirable."
-msgstr "Let op: deze contact werkt niet per se bij deze organisaties. Ga zorgvuldig om met het verwijderen van verbonden organisaties. In veel gevallen is het verwijderen van verbonden organisaties niet wenselijk."
+#: psr-4/Plugin.php:295
+msgid "Please note: this person does not necessarily work at these organizations. Handle the removal of connected organizations with great care. In many cases, deleting connected organizations is not desirable."
+msgstr "Let op: deze persoon werkt niet per se bij deze organisaties. Ga zorgvuldig om met het verwijderen van verbonden organisaties. In veel gevallen is het verwijderen van verbonden organisaties niet wenselijk."
+
+#: templates/organization-persons.php:109
+msgid "No persons connected."
+msgstr "Geen personen gekoppeld."
+
+#: templates/organization-users.php:32
+msgid "No users connected."
+msgstr "Geen gebruikers gekoppeld."
+
+#: templates/person-organizations.php:54
+msgid "No organizations connected."
+msgstr "Geen organisaties gekoppeld."
+
+#: templates/single-orbis_organization.php:27
+msgid "Details"
+msgstr "Details"
+
+#: templates/single-orbis_organization.php:59
+msgid "Description"
+msgstr "Beschrijving"
+
+#: templates/single-orbis_organization.php:79
+msgid "Additional Information"
+msgstr "Aanvullende informatie"
+
+#: templates/single-orbis_organization.php:83
+msgid "Posted on"
+msgstr "Geplaatst op"
+
+#: templates/single-orbis_organization.php:86
+msgid "Posted by"
+msgstr "Aangemaakt door"
+
+#: templates/single-orbis_organization.php:91
+msgid "Actions"
+msgstr "Acties"
+
+#: templates/single-orbis_organization.php:92
+msgid "Edit"
+msgstr "Bewerken"
+
+#: psr-4/Plugin.php:271
+#: templates/single-orbis_organization.php:37
+msgid "Persons"
+msgstr "Personen"
+
+#: templates/archive-orbis_organization.php:35
+msgid "Name"
+msgstr "Naam"

@@ -44,6 +44,7 @@ final class Plugin {
 		\add_action( 'wp_ajax_organization_id_suggest', $this->ajax_suggest_organization_id( ... ) );
 
 		new ContentTypes();
+		new TemplateController();
 
 		if ( \is_admin() ) {
 			new AdminOrganizationPostType();
@@ -267,7 +268,7 @@ final class Plugin {
 				'to'          => 'orbis_organization',
 				'title'       => [
 					'from' => \__( 'Organizations', 'orbis-organizations' ),
-					'to'   => \__( 'Contacts', 'orbis-organizations' ),
+					'to'   => \__( 'Persons', 'orbis-organizations' ),
 				],
 				'fields'      => [
 					'note' => [
@@ -276,13 +277,13 @@ final class Plugin {
 					],
 				],
 				'from_labels' => [
-					'singular_name' => \__( 'Contact', 'orbis-organizations' ),
-					'search_items'  => \__( 'Search contact', 'orbis-organizations' ),
-					'not_found'     => \__( 'No contacts found.', 'orbis-organizations' ),
-					'create'        => \__( 'Add Contact', 'orbis-organizations' ),
-					'new_item'      => \__( 'New Contact', 'orbis-organizations' ),
-					'add_new_item'  => \__( 'Add New Contact', 'orbis-organizations' ),
-					'help'          => \__( 'Please note: these are contacts who do not necessarily work at this organization. Handle the removal of connected contacts with great care. In many cases, deleting connected contacts is not desirable.', 'orbis-organizations' ),
+					'singular_name' => \__( 'Person', 'orbis-organizations' ),
+					'search_items'  => \__( 'Search person', 'orbis-organizations' ),
+					'not_found'     => \__( 'No persons found.', 'orbis-organizations' ),
+					'create'        => \__( 'Add Person', 'orbis-organizations' ),
+					'new_item'      => \__( 'New Person', 'orbis-organizations' ),
+					'add_new_item'  => \__( 'Add New Person', 'orbis-organizations' ),
+					'help'          => \__( 'Please note: these are persons who do not necessarily work at this organization. Handle the removal of connected persons with great care. In many cases, deleting connected persons is not desirable.', 'orbis-organizations' ),
 				],
 				'to_labels'   => [
 					'singular_name' => \__( 'Organization', 'orbis-organizations' ),
@@ -291,7 +292,7 @@ final class Plugin {
 					'create'        => \__( 'Add Organization', 'orbis-organizations' ),
 					'new_item'      => \__( 'New Organization', 'orbis-organizations' ),
 					'add_new_item'  => \__( 'Add New Organization', 'orbis-organizations' ),
-					'help'          => \__( 'Please note: this contact does not necessarily work at these organizations. Handle the removal of connected organizations with great care. In many cases, deleting connected organizations is not desirable.', 'orbis-organizations' ),
+					'help'          => \__( 'Please note: this person does not necessarily work at these organizations. Handle the removal of connected organizations with great care. In many cases, deleting connected organizations is not desirable.', 'orbis-organizations' ),
 				],
 			]
 		);
