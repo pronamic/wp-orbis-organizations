@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-02-01T08:16:17+00:00\n"
-"PO-Revision-Date: 2026-10-05T09:35:42+00:00\n"
+"PO-Revision-Date: 2026-10-05T13:03:29+00:00\n"
 "Language: nl_NL\n"
 "X-Generator: Poedit 3.4.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -29,12 +29,12 @@ msgid "The Orbis Organizations plugin extends your Orbis environment with the op
 msgstr "De Orbis organisaties plugin breidt je Orbis omgeving uit met de mogelijkheid om organisaties te beheren."
 
 #. Author of the plugin
-#: orbis-organizations.php:17
+#: orbis-organizations.php:18
 msgid "Pronamic"
 msgstr "Pronamic"
 
 #. Author URI of the plugin
-#: orbis-organizations.php:18
+#: orbis-organizations.php:19
 msgid "https://www.pronamic.eu/"
 msgstr "https://www.pronamic.nl/"
 
@@ -145,299 +145,221 @@ msgstr "Datum"
 msgid "Organization Details"
 msgstr "Organisatiedetails"
 
-#: psr-4/ContentTypes.php:35
-#: psr-4/ContentTypes.php:37
-#: psr-4/ContentTypes.php:49
-#: psr-4/Plugin.php:125
-#: psr-4/Plugin.php:161
+#: psr-4/ContentTypes.php:36
+#: psr-4/ContentTypes.php:56
+#: psr-4/Plugin.php:119
+#: psr-4/Plugin.php:154
 msgid "Organizations"
 msgstr "Organisaties"
 
-#: psr-4/ContentTypes.php:38
-#: psr-4/Plugin.php:144
+#: psr-4/ContentTypes.php:37
+#: psr-4/Plugin.php:131
 #: psr-4/Plugin.php:173
 msgid "Organization"
 msgstr "Organisatie"
 
+#: psr-4/ContentTypes.php:38
 #: psr-4/ContentTypes.php:39
-msgctxt "orbis_organization"
-msgid "Add New"
-msgstr "Nieuwe organisatie"
-
-#: psr-4/ContentTypes.php:40
-#: psr-4/Plugin.php:149
-#: psr-4/Plugin.php:178
-msgid "Add New Organization"
-msgstr "Nieuwe organisatie toevoegen"
-
-#: psr-4/ContentTypes.php:41
-msgid "Edit Organization"
-msgstr "Organisatie bewerken"
-
-#: psr-4/ContentTypes.php:42
-#: psr-4/Plugin.php:148
-#: psr-4/Plugin.php:177
-msgid "New Organization"
-msgstr "Nieuwe organisatie"
-
-#: psr-4/ContentTypes.php:43
-msgid "All Organizations"
-msgstr "Alle organisaties"
-
-#: psr-4/ContentTypes.php:44
-msgid "View Organization"
-msgstr "Organisatie bekijken"
-
-#: psr-4/ContentTypes.php:45
-msgid "Search Organizations"
-msgstr "Zoek organisaties"
-
-#: psr-4/ContentTypes.php:46
-#: psr-4/Plugin.php:146
-#: psr-4/Plugin.php:175
-msgid "No organizations found."
-msgstr "Geen organisaties gevonden."
-
-#: psr-4/ContentTypes.php:47
-msgid "No organizations found in Trash."
-msgstr "Geen organisaties gevonden in prullenbak."
-
-#: psr-4/ContentTypes.php:48
-msgid "Parent Organization:"
-msgstr "Bovenliggende organisatie:"
-
-#: psr-4/ContentTypes.php:68
-msgctxt "slug"
-msgid "organizations"
-msgstr "organisaties"
-
-#: psr-4/ContentTypes.php:79
-msgctxt "taxonomy general name"
-msgid "Categories"
-msgstr "Categorieën"
-
-#: psr-4/ContentTypes.php:80
-msgctxt "taxonomy singular name"
-msgid "Category"
-msgstr "Categorie"
-
-#: psr-4/ContentTypes.php:81
-msgid "Search Categories"
-msgstr "Zoek categorieën"
-
-#: psr-4/ContentTypes.php:82
-msgid "All Categories"
-msgstr "Alle categorieën"
-
-#: psr-4/ContentTypes.php:83
-msgid "Parent Category"
-msgstr "Bovenliggende categorie"
-
-#: psr-4/ContentTypes.php:84
-msgid "Parent Category:"
-msgstr "Bovenliggende categorie:"
-
-#: psr-4/ContentTypes.php:85
-msgid "Edit Category"
-msgstr "Categorie bewerken"
-
-#: psr-4/ContentTypes.php:86
-msgid "Update Category"
-msgstr "Categorie bijwerken"
-
-#: psr-4/ContentTypes.php:87
-msgid "Add New Category"
-msgstr "Nieuwe categorie"
-
-#: psr-4/ContentTypes.php:88
-msgid "New Category Name"
-msgstr "Nieuwe categorie naam"
-
-#: psr-4/ContentTypes.php:89
-msgid "Categories"
-msgstr "Categorieën"
-
-#: psr-4/ContentTypes.php:94
-msgctxt "slug"
-msgid "organization-category"
-msgstr "organisatie-categorie"
-
-#: psr-4/ContentTypes.php:105
-msgctxt "taxonomy general name"
-msgid "Payment Methods"
-msgstr "Betaalmethoden"
-
-#: psr-4/ContentTypes.php:106
-msgctxt "taxonomy singular name"
-msgid "Payment Method"
-msgstr "Betaalmethode"
-
-#: psr-4/ContentTypes.php:107
-msgid "Search Payment Methods"
-msgstr "Betaalmethoden zoeken"
-
-#: psr-4/ContentTypes.php:108
-msgid "All Payment Methods"
-msgstr "Alle betaalmethoden"
-
-#: psr-4/ContentTypes.php:109
-msgid "Parent Payment Method"
-msgstr "Bovenliggende betaalmethode"
-
-#: psr-4/ContentTypes.php:110
-msgid "Parent Payment Method:"
-msgstr "Bovenliggende betaalmethode:"
-
-#: psr-4/ContentTypes.php:111
-msgid "Edit Payment Method"
-msgstr "Betaalmethode bewerken"
-
-#: psr-4/ContentTypes.php:112
-msgid "Update Payment Method"
-msgstr "Betaalmethode bijwerken"
-
-#: psr-4/ContentTypes.php:113
-msgid "Add New Payment Method"
-msgstr "Nieuwe betaalmethode toevoegen"
-
-#: psr-4/ContentTypes.php:114
-msgid "New Payment Method Name"
-msgstr "Nieuwe betaalmethode naam"
-
-#: psr-4/ContentTypes.php:115
-msgid "Payment Methods"
-msgstr "Betaalmethoden"
-
-#: psr-4/ContentTypes.php:120
-msgctxt "slug"
-msgid "payment-methods"
-msgstr "betaalmethoden"
-
-#: psr-4/ContentTypes.php:132
-msgctxt "taxonomy general name"
-msgid "Invoice Shipping Methods"
-msgstr "Factuur verzendmethoden"
-
-#: psr-4/ContentTypes.php:133
-msgctxt "taxonomy singular name"
-msgid "Invoice Shipping Method"
-msgstr "Factuur verzendmethode"
-
-#: psr-4/ContentTypes.php:134
-msgid "Search Invoice Shipping Methods"
-msgstr "Factuur verzendmethoden zoeken"
-
-#: psr-4/ContentTypes.php:135
-msgid "All Invoice Shipping Methods"
-msgstr "Alle factuur verzendmethoden"
-
-#: psr-4/ContentTypes.php:136
-msgid "Parent Invoice Shipping Method"
-msgstr "Bovenliggende factuur verzendmethode"
-
-#: psr-4/ContentTypes.php:137
-msgid "Parent Invoice Shipping Method:"
-msgstr "Bovenliggende factuur verzendmethode:"
-
-#: psr-4/ContentTypes.php:138
-msgid "Edit Invoice Shipping Method"
-msgstr "Factuur verzendmethode bewerken"
-
-#: psr-4/ContentTypes.php:139
-msgid "Update Invoice Shipping Method"
-msgstr "Factuur verzendmethode bijwerken"
-
-#: psr-4/ContentTypes.php:140
-msgid "Add New Invoice Shipping Method"
-msgstr "Nieuwe factuur verzendmethode toevoegen"
-
-#: psr-4/ContentTypes.php:141
-msgid "New Invoice Shipping Method Name"
-msgstr "Nieuwe factuur verzendmethode naam"
-
-#: psr-4/ContentTypes.php:142
-msgid "Invoice Shipping Methods"
-msgstr "Factuur verzendmethoden"
-
-#: psr-4/ContentTypes.php:147
-msgctxt "slug"
-msgid "invoice-shipping-methods"
-msgstr "factuur-verzendmethoden"
-
-#: psr-4/Plugin.php:126
-msgid "Contacts"
-msgstr "Contacten"
-
-#: psr-4/Plugin.php:130
-msgid "Note"
-msgstr "Notitie"
-
-#: psr-4/Plugin.php:135
-msgid "Contact"
-msgstr "Contact"
-
-#: psr-4/Plugin.php:136
-msgid "Search contact"
-msgstr "Contact zoeken"
-
-#: psr-4/Plugin.php:137
-msgid "No contacts found."
-msgstr "Geen contacten gevonden."
-
-#: psr-4/Plugin.php:138
-msgid "Add Contact"
-msgstr "Contact toevoegen"
-
-#: psr-4/Plugin.php:139
-msgid "New Contact"
-msgstr "Nieuw contact"
-
-#: psr-4/Plugin.php:140
-msgid "Add New Contact"
-msgstr "Nieuwe contact toevoegen"
-
-#: psr-4/Plugin.php:141
-msgid "Please note: these are contacts who do not necessarily work at this organization. Handle the removal of connected contacts with great care. In many cases, deleting connected contacts is not desirable."
-msgstr "Let op: dit zijn contacten die niet per se bij deze organisatie werken. Ga zorgvuldig om met het verwijderen van verbonden contacten. In veel gevallen is het verwijderen van verbonden contacten niet wenselijk."
-
-#: psr-4/Plugin.php:145
-#: psr-4/Plugin.php:174
-msgid "Search organization"
-msgstr "Organisatie zoeken"
-
-#: psr-4/Plugin.php:147
+#: psr-4/Plugin.php:134
 #: psr-4/Plugin.php:176
 msgid "Add Organization"
 msgstr "Organisatie toevoegen"
 
-#: psr-4/Plugin.php:150
-msgid "Please note: this contact does not necessarily work at these organizations. Handle the removal of connected organizations with great care. In many cases, deleting connected organizations is not desirable."
-msgstr "Let op: deze contact werkt niet per se bij deze organisaties. Ga zorgvuldig om met het verwijderen van verbonden organisaties. In veel gevallen is het verwijderen van verbonden organisaties niet wenselijk."
+#: psr-4/ContentTypes.php:40
+msgid "Edit Organization"
+msgstr "Organisatie bewerken"
 
-#: psr-4/Plugin.php:162
+#: psr-4/ContentTypes.php:41
+#: psr-4/Plugin.php:135
+#: psr-4/Plugin.php:177
+msgid "New Organization"
+msgstr "Nieuwe organisatie"
+
+#: psr-4/ContentTypes.php:42
+msgid "View Organization"
+msgstr "Organisatie bekijken"
+
+#: psr-4/ContentTypes.php:43
+msgid "View Organizations"
+msgstr "Organisaties bekijken"
+
+#: psr-4/ContentTypes.php:44
+msgid "Search Organizations"
+msgstr "Zoek organisaties"
+
+#: psr-4/ContentTypes.php:45
+#: psr-4/Plugin.php:133
+#: psr-4/Plugin.php:175
+msgid "No organizations found."
+msgstr "Geen organisaties gevonden."
+
+#: psr-4/ContentTypes.php:46
+msgid "No organizations found in Trash."
+msgstr "Geen organisaties gevonden in prullenbak."
+
+#: psr-4/ContentTypes.php:47
+msgid "All Organizations"
+msgstr "Alle organisaties"
+
+#: psr-4/ContentTypes.php:48
+msgid "Organization Archives"
+msgstr "Organisatiearchief"
+
+#: psr-4/ContentTypes.php:49
+msgid "Organization Attributes"
+msgstr "Organisatie-eigenschappen"
+
+#: psr-4/ContentTypes.php:50
+msgid "Insert into organization"
+msgstr "In organisatie invoegen"
+
+#: psr-4/ContentTypes.php:51
+msgid "Uploaded to this organization"
+msgstr "Geüpload naar deze organisatie"
+
+#: psr-4/ContentTypes.php:52
+msgid "Logo"
+msgstr "Logo"
+
+#: psr-4/ContentTypes.php:53
+msgid "Set logo"
+msgstr "Logo instellen"
+
+#: psr-4/ContentTypes.php:54
+msgid "Remove logo"
+msgstr "Logo verwijderen"
+
+#: psr-4/ContentTypes.php:55
+msgid "Use as logo"
+msgstr "Als logo gebruiken"
+
+#: psr-4/ContentTypes.php:57
+msgid "Filter organizations list"
+msgstr "Organisatielijst filteren"
+
+#: psr-4/ContentTypes.php:58
+msgid "Filter by date"
+msgstr "Filter op datum"
+
+#: psr-4/ContentTypes.php:59
+msgid "Organizations list navigation"
+msgstr "Organisatielijst navigatie"
+
+#: psr-4/ContentTypes.php:60
+msgid "Organizations list"
+msgstr "Organisatielijst"
+
+#: psr-4/ContentTypes.php:61
+msgid "Organization published."
+msgstr "Organisatie gepubliceerd."
+
+#: psr-4/ContentTypes.php:62
+msgid "Organization published privately."
+msgstr "Organisatie privé gepubliceerd."
+
+#: psr-4/ContentTypes.php:63
+msgid "Organization reverted to draft."
+msgstr "Organisatie teruggezet naar concept."
+
+#: psr-4/ContentTypes.php:64
+msgid "Organization trashed."
+msgstr "Organisatie naar prullenbak verplaatst."
+
+#: psr-4/ContentTypes.php:65
+msgid "Organization scheduled."
+msgstr "Organisatie gepland."
+
+#: psr-4/ContentTypes.php:66
+msgid "Organization updated."
+msgstr "Organisatie bijgewerkt."
+
+#: psr-4/ContentTypes.php:67
+msgid "Organization Link"
+msgstr "Organisatielink"
+
+#: psr-4/ContentTypes.php:68
+msgid "A link to an organization."
+msgstr "Een link naar een organisatie."
+
+#: psr-4/ContentTypes.php:87
+msgctxt "slug"
+msgid "organizations"
+msgstr "organisaties"
+
+#: psr-4/Plugin.php:120
 msgid "Users"
 msgstr "Gebruikers"
 
-#: psr-4/Plugin.php:165
+#: psr-4/Plugin.php:123
 msgid "User"
 msgstr "Gebruiker"
 
-#: psr-4/Plugin.php:166
+#: psr-4/Plugin.php:124
 msgid "Search user"
 msgstr "Gebruiker zoeken"
 
-#: psr-4/Plugin.php:167
+#: psr-4/Plugin.php:125
 msgid "No users found."
 msgstr "Geen gebruikers gevonden."
 
-#: psr-4/Plugin.php:168
+#: psr-4/Plugin.php:126
 msgid "Add User"
 msgstr "Gebruiker toevoegen"
 
-#: psr-4/Plugin.php:169
+#: psr-4/Plugin.php:127
 msgid "New User"
 msgstr "Nieuwe gebruiker"
 
-#: psr-4/Plugin.php:170
+#: psr-4/Plugin.php:128
 msgid "Add New User"
 msgstr "Nieuw gebruiker toevoegen"
+
+#: psr-4/Plugin.php:132
+#: psr-4/Plugin.php:174
+msgid "Search organization"
+msgstr "Organisatie zoeken"
+
+#: psr-4/Plugin.php:136
+#: psr-4/Plugin.php:178
+msgid "Add New Organization"
+msgstr "Nieuwe organisatie toevoegen"
+
+#: psr-4/Plugin.php:155
+msgid "Contacts"
+msgstr "Contacten"
+
+#: psr-4/Plugin.php:159
+msgid "Note"
+msgstr "Notitie"
+
+#: psr-4/Plugin.php:164
+msgid "Contact"
+msgstr "Contact"
+
+#: psr-4/Plugin.php:165
+msgid "Search contact"
+msgstr "Contact zoeken"
+
+#: psr-4/Plugin.php:166
+msgid "No contacts found."
+msgstr "Geen contacten gevonden."
+
+#: psr-4/Plugin.php:167
+msgid "Add Contact"
+msgstr "Contact toevoegen"
+
+#: psr-4/Plugin.php:168
+msgid "New Contact"
+msgstr "Nieuw contact"
+
+#: psr-4/Plugin.php:169
+msgid "Add New Contact"
+msgstr "Nieuwe contact toevoegen"
+
+#: psr-4/Plugin.php:170
+msgid "Please note: these are contacts who do not necessarily work at this organization. Handle the removal of connected contacts with great care. In many cases, deleting connected contacts is not desirable."
+msgstr "Let op: dit zijn contacten die niet per se bij deze organisatie werken. Ga zorgvuldig om met het verwijderen van verbonden contacten. In veel gevallen is het verwijderen van verbonden contacten niet wenselijk."
+
+#: psr-4/Plugin.php:179
+msgid "Please note: this contact does not necessarily work at these organizations. Handle the removal of connected organizations with great care. In many cases, deleting connected organizations is not desirable."
+msgstr "Let op: deze contact werkt niet per se bij deze organisaties. Ga zorgvuldig om met het verwijderen van verbonden organisaties. In veel gevallen is het verwijderen van verbonden organisaties niet wenselijk."
