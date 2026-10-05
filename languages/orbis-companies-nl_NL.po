@@ -1,0 +1,489 @@
+# Copyright (C) 2016 Pronamic
+# This file is distributed under the Copyright (c) Pronamic.
+msgid ""
+msgstr ""
+"Project-Id-Version: Orbis Companies\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/orbis-companies\n"
+"POT-Creation-Date: 2024-02-01T08:16:17+00:00\n"
+"PO-Revision-Date: 2024-02-01 09:16+0100\n"
+"Last-Translator: Remco Tolsma <info@remcotolsma.nl>\n"
+"Language-Team: Pronamic <info@pronamic.nl>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Plugin Name of the plugin
+msgid "Orbis Companies"
+msgstr "Orbis Companies"
+
+#. Plugin URI of the plugin
+msgid "https://wp.pronamic.directory/plugins/orbis-companies/"
+msgstr "https://wp.pronamic.directory/plugins/orbis-companies/"
+
+#. Description of the plugin
+msgid ""
+"The Orbis Companies plugin extends your Orbis environment with the option to "
+"manage companies."
+msgstr ""
+"De Orbis bedrijven plugin breidt je Orbis omgeving uit met de mogelijkheid "
+"om bedrijven te beheren."
+
+#. Author of the plugin
+msgid "Pronamic"
+msgstr "Pronamic"
+
+#. Author URI of the plugin
+msgid "https://www.pronamic.eu/"
+msgstr "https://www.pronamic.nl/"
+
+#: admin/meta-box-company-details.php:46
+msgid "Orbis ID"
+msgstr "Orbis ID"
+
+#: admin/meta-box-company-details.php:54 classes/AdminCompanyPostType.php:47
+msgid "Registration Number"
+msgstr "Registratienummer"
+
+#: admin/meta-box-company-details.php:62
+msgid "VAT Number"
+msgstr "Btw-nummer"
+
+#: admin/meta-box-company-details.php:70
+msgid "E-Mail"
+msgstr "E-mailadres"
+
+#: admin/meta-box-company-details.php:78
+msgid "Accounting E-Mail"
+msgstr "Administratie e-mailadres"
+
+#: admin/meta-box-company-details.php:86
+msgid "Invoice E-Mail"
+msgstr "Factuur e-mailadres"
+
+#: admin/meta-box-company-details.php:94
+msgid "Invoice reference"
+msgstr "Factuurreferentie"
+
+#: admin/meta-box-company-details.php:102
+msgid "Website"
+msgstr "Website"
+
+#: admin/meta-box-company-details.php:110
+#: admin/meta-box-company-details.php:113 classes/AdminCompanyPostType.php:45
+msgid "Address"
+msgstr "Adres"
+
+#: admin/meta-box-company-details.php:115
+msgid "Postcode"
+msgstr "Postcode"
+
+#: admin/meta-box-company-details.php:116
+msgid "City"
+msgstr "Plaats"
+
+#: admin/meta-box-company-details.php:118
+msgid "Country"
+msgstr "Land"
+
+#: admin/meta-box-company-details.php:123
+msgid "IBAN"
+msgstr "IBAN"
+
+#: admin/meta-box-company-details.php:131
+msgid "Twitter Username:"
+msgstr "Twitter gebruikersnaam:"
+
+#: admin/meta-box-company-details.php:139
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#: admin/meta-box-company-details.php:147
+msgid "LinkedIn URL:"
+msgstr "LinkedIn URL:"
+
+#: admin/meta-box-company-details.php:155
+msgid "Payment Method"
+msgstr "Betaalmethode"
+
+#: admin/meta-box-company-details.php:167
+msgid "— Select Payment Method —"
+msgstr "— Selecteer betaalmethode —"
+
+#: admin/meta-box-company-details.php:179
+msgid "Invoice Shipping Method"
+msgstr "Factuur verzendmethode"
+
+#: admin/meta-box-company-details.php:191
+msgid "— Select Invoice Shipping Method —"
+msgstr "— Selecteer factuur verzendmethode —"
+
+#: classes/AdminCompanyPostType.php:44
+msgid "Title"
+msgstr "Titel"
+
+#: classes/AdminCompanyPostType.php:46
+msgid "Online"
+msgstr "Online"
+
+#: classes/AdminCompanyPostType.php:48
+msgid "Author"
+msgstr "Auteur"
+
+#: classes/AdminCompanyPostType.php:49
+msgid "Comments"
+msgstr "Reacties"
+
+#: classes/AdminCompanyPostType.php:50
+msgid "Date"
+msgstr "Datum"
+
+#: classes/AdminCompanyPostType.php:110
+msgid "Company Details"
+msgstr "Bedrijf details"
+
+#: classes/ContentTypes.php:31 classes/ContentTypes.php:33
+#: classes/ContentTypes.php:45 classes/Plugin.php:86 classes/Plugin.php:127
+msgid "Companies"
+msgstr "Bedrijven"
+
+#: classes/ContentTypes.php:34 classes/Plugin.php:105 classes/Plugin.php:139
+msgid "Company"
+msgstr "Bedrijf"
+
+#: classes/ContentTypes.php:35
+msgctxt "orbis_company"
+msgid "Add New"
+msgstr "Nieuw bedrijf"
+
+#: classes/ContentTypes.php:36 classes/Plugin.php:110 classes/Plugin.php:144
+msgid "Add New Company"
+msgstr "Nieuw bedrijf toevoegen"
+
+#: classes/ContentTypes.php:37
+msgid "Edit Company"
+msgstr "Bedrijf bewerken"
+
+#: classes/ContentTypes.php:38 classes/Plugin.php:109 classes/Plugin.php:143
+msgid "New Company"
+msgstr "Nieuw bedrijf"
+
+#: classes/ContentTypes.php:39
+msgid "All Companies"
+msgstr "Alle bedrijven"
+
+#: classes/ContentTypes.php:40
+msgid "View Company"
+msgstr "Bedrijf bekijken"
+
+#: classes/ContentTypes.php:41
+msgid "Search Companies"
+msgstr "Zoek bedrijven"
+
+#: classes/ContentTypes.php:42 classes/Plugin.php:107 classes/Plugin.php:141
+msgid "No companies found."
+msgstr "Geen bedrijven gevonden."
+
+#: classes/ContentTypes.php:43
+msgid "No companies found in Trash."
+msgstr "Geen bedrijven gevonden in prullenbak."
+
+#: classes/ContentTypes.php:44
+msgid "Parent Company:"
+msgstr "Bovenliggend bedrijf:"
+
+#: classes/ContentTypes.php:64
+msgctxt "slug"
+msgid "companies"
+msgstr "bedrijven"
+
+#: classes/ContentTypes.php:75
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr "Categorieën"
+
+#: classes/ContentTypes.php:76
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Categorie"
+
+#: classes/ContentTypes.php:77
+msgid "Search Categories"
+msgstr "Zoek categorieën"
+
+#: classes/ContentTypes.php:78
+msgid "All Categories"
+msgstr "Alle categorieën"
+
+#: classes/ContentTypes.php:79
+msgid "Parent Category"
+msgstr "Bovenliggende categorie"
+
+#: classes/ContentTypes.php:80
+msgid "Parent Category:"
+msgstr "Bovenliggende categorie:"
+
+#: classes/ContentTypes.php:81
+msgid "Edit Category"
+msgstr "Categorie bewerken"
+
+#: classes/ContentTypes.php:82
+msgid "Update Category"
+msgstr "Categorie bijwerken"
+
+#: classes/ContentTypes.php:83
+msgid "Add New Category"
+msgstr "Nieuwe categorie"
+
+#: classes/ContentTypes.php:84
+msgid "New Category Name"
+msgstr "Nieuwe categorie naam"
+
+#: classes/ContentTypes.php:85
+msgid "Categories"
+msgstr "Categorieën"
+
+#: classes/ContentTypes.php:90
+msgctxt "slug"
+msgid "company-category"
+msgstr "bedrijf-categorie"
+
+#: classes/ContentTypes.php:101
+msgctxt "taxonomy general name"
+msgid "Payment Methods"
+msgstr "Betaalmethoden"
+
+#: classes/ContentTypes.php:102
+msgctxt "taxonomy singular name"
+msgid "Payment Method"
+msgstr "Betaalmethode"
+
+#: classes/ContentTypes.php:103
+msgid "Search Payment Methods"
+msgstr "Betaalmethoden zoeken"
+
+#: classes/ContentTypes.php:104
+msgid "All Payment Methods"
+msgstr "Alle betaalmethoden"
+
+#: classes/ContentTypes.php:105
+msgid "Parent Payment Method"
+msgstr "Bovenliggende betaalmethode"
+
+#: classes/ContentTypes.php:106
+msgid "Parent Payment Method:"
+msgstr "Bovenliggende betaalmethode:"
+
+#: classes/ContentTypes.php:107
+msgid "Edit Payment Method"
+msgstr "Betaalmethode bewerken"
+
+#: classes/ContentTypes.php:108
+msgid "Update Payment Method"
+msgstr "Betaalmethode bijwerken"
+
+#: classes/ContentTypes.php:109
+msgid "Add New Payment Method"
+msgstr "Nieuwe betaalmethode toevoegen"
+
+#: classes/ContentTypes.php:110
+msgid "New Payment Method Name"
+msgstr "Nieuwe betaalmethode naam"
+
+#: classes/ContentTypes.php:111
+msgid "Payment Methods"
+msgstr "Betaalmethoden"
+
+#: classes/ContentTypes.php:116
+msgctxt "slug"
+msgid "payment-methods"
+msgstr "betaalmethoden"
+
+#: classes/ContentTypes.php:128
+msgctxt "taxonomy general name"
+msgid "Invoice Shipping Methods"
+msgstr "Factuur verzendmethoden"
+
+#: classes/ContentTypes.php:129
+msgctxt "taxonomy singular name"
+msgid "Invoice Shipping Method"
+msgstr "Factuur verzendmethode"
+
+#: classes/ContentTypes.php:130
+msgid "Search Invoice Shipping Methods"
+msgstr "Factuur verzendmethoden zoeken"
+
+#: classes/ContentTypes.php:131
+msgid "All Invoice Shipping Methods"
+msgstr "Alle factuur verzendmethoden"
+
+#: classes/ContentTypes.php:132
+msgid "Parent Invoice Shipping Method"
+msgstr "Bovenliggende factuur verzendmethode"
+
+#: classes/ContentTypes.php:133
+msgid "Parent Invoice Shipping Method:"
+msgstr "Bovenliggende factuur verzendmethode:"
+
+#: classes/ContentTypes.php:134
+msgid "Edit Invoice Shipping Method"
+msgstr "Factuur verzendmethode bewerken"
+
+#: classes/ContentTypes.php:135
+msgid "Update Invoice Shipping Method"
+msgstr "Factuur verzendmethode bijwerken"
+
+#: classes/ContentTypes.php:136
+msgid "Add New Invoice Shipping Method"
+msgstr "Nieuwe factuur verzendmethode toevoegen"
+
+#: classes/ContentTypes.php:137
+msgid "New Invoice Shipping Method Name"
+msgstr "Nieuwe factuur verzendmethode naam"
+
+#: classes/ContentTypes.php:138
+msgid "Invoice Shipping Methods"
+msgstr "Factuur verzendmethoden"
+
+#: classes/ContentTypes.php:143
+msgctxt "slug"
+msgid "invoice-shipping-methods"
+msgstr "factuur-verzendmethoden"
+
+#: classes/Plugin.php:87
+msgid "Contacts"
+msgstr "Contacten"
+
+#: classes/Plugin.php:91
+msgid "Note"
+msgstr "Notitie"
+
+#: classes/Plugin.php:96
+msgid "Contact"
+msgstr "Contact"
+
+#: classes/Plugin.php:97
+msgid "Search contact"
+msgstr "Contact zoeken"
+
+#: classes/Plugin.php:98
+msgid "No contacts found."
+msgstr "Geen contacten gevonden."
+
+#: classes/Plugin.php:99
+msgid "Add Contact"
+msgstr "Contact toevoegen"
+
+#: classes/Plugin.php:100
+msgid "New Contact"
+msgstr "Nieuw contact"
+
+#: classes/Plugin.php:101
+msgid "Add New Contact"
+msgstr "Nieuwe contact toevoegen"
+
+#: classes/Plugin.php:102
+msgid ""
+"Please note: these are contacts who do not necessarily work at this company. "
+"Handle the removal of connected contacts with great care. In many cases, "
+"deleting connected contacts is not desirable."
+msgstr ""
+"Let op: dit zijn contacten die niet per se bij dit bedrijf werken. Ga "
+"zorgvuldig om met het verwijderen van verbonden contacten. In veel gevallen "
+"is het verwijderen van verbonden contacten niet wenselijk."
+
+#: classes/Plugin.php:106 classes/Plugin.php:140
+msgid "Search company"
+msgstr "Bedrijf zoeken"
+
+#: classes/Plugin.php:108 classes/Plugin.php:142
+msgid "Add Company"
+msgstr "Bedrijf toevoegen"
+
+#: classes/Plugin.php:111
+msgid ""
+"Please note: this contact does not necessarily work at these companies. "
+"Handle the removal of connected companies with great care. In many cases, "
+"deleting connected companies is not desirable."
+msgstr ""
+"Let op: deze contact werkt niet per se bij deze bedrijven. Ga zorgvuldig om "
+"met het verwijderen van verbonden bedrijven. In veel gevallen is het "
+"verwijderen van verbonden bedrijven niet wenselijk."
+
+#: classes/Plugin.php:128
+msgid "Users"
+msgstr "Gebruikers"
+
+#: classes/Plugin.php:131
+msgid "User"
+msgstr "Gebruiker"
+
+#: classes/Plugin.php:132
+msgid "Search user"
+msgstr "Gebruiker zoeken"
+
+#: classes/Plugin.php:133
+msgid "No users found."
+msgstr "Geen gebruikers gevonden."
+
+#: classes/Plugin.php:134
+msgid "Add User"
+msgstr "Gebruiker toevoegen"
+
+#: classes/Plugin.php:135
+msgid "New User"
+msgstr "Nieuwe gebruiker"
+
+#: classes/Plugin.php:136
+msgid "Add New User"
+msgstr "Nieuw gebruiker toevoegen"
+
+#~ msgid "Invoice Header Text"
+#~ msgstr "Factuur koptekst"
+
+#~ msgid "Invoice Footer Text"
+#~ msgstr "Factuur voettekst"
+
+#~ msgid "https://www.pronamic.eu/plugins/orbis-companies/"
+#~ msgstr "https://www.pronamic.eu/plugins/orbis-companies/"
+
+#~ msgid "All Statuses"
+#~ msgstr "Alle statussen"
+
+#~ msgid "Parent Status"
+#~ msgstr "Bovenliggende status"
+
+#~ msgid "Parent Status:"
+#~ msgstr "Bovenliggende status:"
+
+#~ msgid "Edit Status"
+#~ msgstr "Status bewerken"
+
+#~ msgid "Update Status"
+#~ msgstr "Status bijwerken"
+
+#~ msgid "Add New Status"
+#~ msgstr "Nieuwe status toevoegen"
+
+#~ msgid "New Status Name"
+#~ msgstr "Nieuwe status naam"
+
+#~ msgid "Statuses"
+#~ msgstr "Statussen"
+
+#~ msgctxt "slug"
+#~ msgid "company-status"
+#~ msgstr "bedrijf-status"
+
+#~ msgctxt "taxonomy general name"
+#~ msgid "Statuses"
+#~ msgstr "Statussen"
+
+#~ msgctxt "taxonomy singular name"
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Addresses"
+#~ msgstr "Adressen"
