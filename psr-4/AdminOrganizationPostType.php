@@ -229,12 +229,17 @@ final class AdminOrganizationPostType {
 
 		$orbis_id = \get_post_meta( $post_id, '_orbis_organization_id', true );
 
+		$now = \current_time( 'mysql', true );
+
 		if ( ! empty( $orbis_id ) ) {
 			$wpdb->update(
 				$wpdb->prefix . 'orbis_organizations',
-				[ 'name' => $post->post_title ],
+				[
+					'name'       => $post->post_title,
+					'updated_at' => $now,
+				],
 				[ 'id' => $orbis_id ],
-				[ '%s' ],
+				[ '%s', '%s' ],
 				[ '%d' ]
 			);
 
@@ -244,11 +249,15 @@ final class AdminOrganizationPostType {
 		$result = $wpdb->insert(
 			$wpdb->prefix . 'orbis_organizations',
 			[
-				'post_id' => $post_id,
-				'name'    => $post->post_title,
+				'post_id'    => $post_id,
+				'name'       => $post->post_title,
+				'created_at' => $now,
+				'updated_at' => $now,
 			],
 			[
 				'%d',
+				'%s',
+				'%s',
 				'%s',
 			]
 		);

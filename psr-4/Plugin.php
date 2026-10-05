@@ -56,7 +56,7 @@ final class Plugin {
 	 * @return void
 	 */
 	private function init(): void {
-		$version = '1.0.0';
+		$version = '1.1.0';
 
 		if ( \get_option( 'orbis_organizations_db_version' ) !== $version ) {
 			$this->install();
@@ -92,6 +92,8 @@ final class Plugin {
 				contact_id BIGINT(20) UNSIGNED DEFAULT NULL,
 				name VARCHAR(128) NOT NULL,
 				email VARCHAR(128) DEFAULT NULL,
+				created_at DATETIME NOT NULL,
+				updated_at DATETIME NOT NULL,
 				PRIMARY KEY  (id),
 				UNIQUE KEY post_id (post_id),
 				UNIQUE KEY contact_id (contact_id)
