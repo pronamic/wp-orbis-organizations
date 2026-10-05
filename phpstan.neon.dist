@@ -5,4 +5,4 @@ parameters:
         - psr-4/
         - orbis-organizations.php
     scanFiles:
-        - stubs/posts-to-posts.php
+        - packages/wp-plugin/posts-to-posts/vendor/scribu/lib-posts-to-posts/api.php

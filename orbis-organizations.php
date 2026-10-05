@@ -14,6 +14,7 @@
  * Version:           1.0.0
  * Requires at least: 6.7
  * Requires PHP:      8.3
+ * Requires Plugins:  orbis-contacts
  * Author:            Pronamic
  * Author URI:        https://www.pronamic.eu/
  * Text Domain:       orbis-organizations

@@ -19,8 +19,6 @@ phpstan.neon.dist
 
 /rector.php
 
-/stubs/
-
 /build/
 /deploy/
 

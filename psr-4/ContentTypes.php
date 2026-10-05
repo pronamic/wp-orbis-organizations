@@ -32,8 +32,8 @@ final class ContentTypes {
 		\register_post_type(
 			'orbis_organization',
 			[
-				'label'           => \__( 'Organizations', 'orbis-organizations' ),
-				'labels'          => [
+				'label'         => \__( 'Organizations', 'orbis-organizations' ),
+				'labels'        => [
 					'name'               => \__( 'Organizations', 'orbis-organizations' ),
 					'singular_name'      => \__( 'Organization', 'orbis-organizations' ),
 					'add_new'            => \_x( 'Add New', 'orbis_organization', 'orbis-organizations' ),
@@ -48,11 +48,10 @@ final class ContentTypes {
 					'parent_item_colon'  => \__( 'Parent Organization:', 'orbis-organizations' ),
 					'menu_name'          => \__( 'Organizations', 'orbis-organizations' ),
 				],
-				'public'          => true,
-				'menu_position'   => 30,
-				'menu_icon'       => 'dashicons-building',
-				'capability_type' => [ 'orbis_organization', 'orbis_organizations' ],
-				'supports'        => [
+				'public'        => true,
+				'menu_position' => 30,
+				'menu_icon'     => 'dashicons-building',
+				'supports'      => [
 					'title',
 					'editor',
 					'author',
@@ -60,11 +59,12 @@ final class ContentTypes {
 					'thumbnail',
 					'custom-fields',
 					'revisions',
+					'orbis_contact',
 				],
-				'has_archive'     => true,
-				'show_in_rest'    => true,
-				'rest_base'       => 'orbis/organizations',
-				'rewrite'         => [
+				'has_archive'   => true,
+				'show_in_rest'  => true,
+				'rest_base'     => 'orbis/organizations',
+				'rewrite'       => [
 					'slug' => \_x( 'organizations', 'slug', 'orbis-organizations' ),
 				],
 			]

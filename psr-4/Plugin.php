@@ -92,7 +92,7 @@ final class Plugin {
 
 		$charset_collate = $wpdb->get_charset_collate();
 
-		$sql = "
+		$sql = <<<SQL
 			CREATE TABLE $table (
 				id BIGINT(16) UNSIGNED NOT NULL AUTO_INCREMENT,
 				post_id BIGINT(20) UNSIGNED DEFAULT NULL,
@@ -100,7 +100,7 @@ final class Plugin {
 				e_mail VARCHAR(128) DEFAULT NULL,
 				PRIMARY KEY  (id)
 			) $charset_collate;
-		";
+			SQL;
 
 		require_once ABSPATH . 'wp-admin/includes/upgrade.php';
 
@@ -116,6 +116,45 @@ final class Plugin {
 	 * @return void
 	 */
 	private function p2p_init(): void {
+		if ( \post_type_exists( 'orbis_person' ) ) {
+			$this->register_persons_to_organizations_connection();
+		}
+
+		\p2p_register_connection_type(
+			[
+				'name'        => 'orbis_users_to_organizations',
+				'from'        => 'user',
+				'to'          => 'orbis_organization',
+				'title'       => [
+					'from' => \__( 'Organizations', 'orbis-organizations' ),
+					'to'   => \__( 'Users', 'orbis-organizations' ),
+				],
+				'from_labels' => [
+					'singular_name' => \__( 'User', 'orbis-organizations' ),
+					'search_items'  => \__( 'Search user', 'orbis-organizations' ),
+					'not_found'     => \__( 'No users found.', 'orbis-organizations' ),
+					'create'        => \__( 'Add User', 'orbis-organizations' ),
+					'new_item'      => \__( 'New User', 'orbis-organizations' ),
+					'add_new_item'  => \__( 'Add New User', 'orbis-organizations' ),
+				],
+				'to_labels'   => [
+					'singular_name' => \__( 'Organization', 'orbis-organizations' ),
+					'search_items'  => \__( 'Search organization', 'orbis-organizations' ),
+					'not_found'     => \__( 'No organizations found.', 'orbis-organizations' ),
+					'create'        => \__( 'Add Organization', 'orbis-organizations' ),
+					'new_item'      => \__( 'New Organization', 'orbis-organizations' ),
+					'add_new_item'  => \__( 'Add New Organization', 'orbis-organizations' ),
+				],
+			]
+		);
+	}
+
+	/**
+	 * Register the persons to organizations connection.
+	 *
+	 * @return void
+	 */
+	private function register_persons_to_organizations_connection(): void {
 		\p2p_register_connection_type(
 			[
 				'name'        => 'orbis_persons_to_organizations',
@@ -148,34 +187,6 @@ final class Plugin {
 					'new_item'      => \__( 'New Organization', 'orbis-organizations' ),
 					'add_new_item'  => \__( 'Add New Organization', 'orbis-organizations' ),
 					'help'          => \__( 'Please note: this contact does not necessarily work at these organizations. Handle the removal of connected organizations with great care. In many cases, deleting connected organizations is not desirable.', 'orbis-organizations' ),
-				],
-			]
-		);
-
-		\p2p_register_connection_type(
-			[
-				'name'        => 'orbis_users_to_organizations',
-				'from'        => 'user',
-				'to'          => 'orbis_organization',
-				'title'       => [
-					'from' => \__( 'Organizations', 'orbis-organizations' ),
-					'to'   => \__( 'Users', 'orbis-organizations' ),
-				],
-				'from_labels' => [
-					'singular_name' => \__( 'User', 'orbis-organizations' ),
-					'search_items'  => \__( 'Search user', 'orbis-organizations' ),
-					'not_found'     => \__( 'No users found.', 'orbis-organizations' ),
-					'create'        => \__( 'Add User', 'orbis-organizations' ),
-					'new_item'      => \__( 'New User', 'orbis-organizations' ),
-					'add_new_item'  => \__( 'Add New User', 'orbis-organizations' ),
-				],
-				'to_labels'   => [
-					'singular_name' => \__( 'Organization', 'orbis-organizations' ),
-					'search_items'  => \__( 'Search organization', 'orbis-organizations' ),
-					'not_found'     => \__( 'No organizations found.', 'orbis-organizations' ),
-					'create'        => \__( 'Add Organization', 'orbis-organizations' ),
-					'new_item'      => \__( 'New Organization', 'orbis-organizations' ),
-					'add_new_item'  => \__( 'Add New Organization', 'orbis-organizations' ),
 				],
 			]
 		);

@@ -67,7 +67,8 @@
 		"roots/wordpress-no-content": "^7.1",
 		"szepeviktor/phpstan-wordpress": "^2.0",
 		"wp-cli/dist-archive-command": "*",
-		"wp-cli/wp-cli-bundle": "*"
+		"wp-cli/wp-cli-bundle": "*",
+		"wp-plugin/posts-to-posts": "^1.7"
 	},
 	"extra": {
 		"installer-paths": {
@@ -75,7 +76,8 @@
 				"vendor:pronamic",
 				"vendor:solvebeam",
 				"vendor:wp-pay",
-				"woocommerce/action-scheduler"
+				"woocommerce/action-scheduler",
+				"wp-plugin/posts-to-posts"
 			]
 		},
 		"wp-slug": "orbis-organizations"
@@ -110,5 +112,10 @@
 			"@phpstan",
 			"vendor/bin/rector process --dry-run"
 		]
-	}
+	},
+	"repositories": [{
+		"name": "wp-packages",
+		"type": "composer",
+		"url": "https://repo.wp-packages.org"
+	}]
 }
