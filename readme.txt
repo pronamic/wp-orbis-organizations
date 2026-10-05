@@ -1,7 +1,7 @@
 === Orbis Organizations ===
 Contributors: pronamic, remcotolsma
 Tags: orbis, organizations
-Requires at least: 6.7
+Requires at least: 7.1
 Tested up to: 7.1
 Requires PHP: 8.3
 Stable tag: 1.0.0

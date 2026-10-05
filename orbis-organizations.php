@@ -12,7 +12,7 @@
  * Plugin URI:        https://wp.pronamic.directory/plugins/orbis-organizations/
  * Description:       The Orbis Organizations plugin extends your Orbis environment with the option to manage organizations.
  * Version:           1.0.0
- * Requires at least: 6.7
+ * Requires at least: 7.1
  * Requires PHP:      8.3
  * Requires Plugins:  orbis-contacts
  * Author:            Pronamic
@@ -40,5 +40,5 @@ if ( ! \defined( 'ABSPATH' ) ) {
 		require_once $autoload_path;
 	}
 
-	Plugin::instance( __FILE__ );
+	Plugin::instance();
 } )();

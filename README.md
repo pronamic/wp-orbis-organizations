@@ -7,7 +7,7 @@ This plugin is the successor of the [Orbis Companies](https://github.com/pronami
 ## Requirements
 
 - PHP 8.3+
-- WordPress 6.7+
+- WordPress 7.1+
 - [Posts 2 Posts](https://github.com/scribu/wp-posts-to-posts) (for connecting persons and users to organizations)
 - Composer
 - Node.js / npm

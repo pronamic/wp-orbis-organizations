@@ -26,26 +26,18 @@ final class Plugin {
 	/**
 	 * Return instance of this class.
 	 *
-	 * @param string $plugin_file The plugin file.
 	 * @return self A single instance of this class.
 	 */
-	public static function instance( string $plugin_file ): self {
-		self::$instance ??= new self( $plugin_file );
+	public static function instance(): self {
+		self::$instance ??= new self();
 
 		return self::$instance;
 	}
 
 	/**
 	 * Construct.
-	 *
-	 * @param string $plugin_file The plugin file.
 	 */
-	private function __construct(
-		/**
-		 * Plugin file.
-		 */
-		private readonly string $plugin_file
-	) {
+	private function __construct() {
 		\add_action( 'init', $this->init( ... ), 0 );
 		\add_action( 'p2p_init', $this->p2p_init( ... ) );
 		\add_action( 'wp_ajax_organization_id_suggest', $this->ajax_suggest_organization_id( ... ) );
@@ -63,8 +55,6 @@ final class Plugin {
 	 * @return void
 	 */
 	private function init(): void {
-		\load_plugin_textdomain( 'orbis-organizations', false, \dirname( \plugin_basename( $this->plugin_file ) ) . '/languages' );
-
 		$version = '1.1.0';
 
 		if ( \get_option( 'orbis_organizations_db_version' ) !== $version ) {
