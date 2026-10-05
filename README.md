@@ -71,7 +71,6 @@ composer run qa
 | Type | Key |
 |---|---|
 | Post type | `orbis_organization` |
-| Taxonomies | `orbis_organization_category`, `orbis_payment_method`, `orbis_invoice_shipping_method` |
 | Database table | `{$wpdb->prefix}orbis_organizations` |
 | Post meta (Orbis ID) | `_orbis_organization_id` |
 | Posts 2 Posts connections | `orbis_persons_to_organizations`, `orbis_users_to_organizations` |
