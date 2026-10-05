@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-05T13:03:29+00:00\n"
+"POT-Creation-Date: 2026-10-05T13:14:16+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: orbis-organizations\n"
@@ -147,7 +147,7 @@ msgid "Organization Details"
 msgstr ""
 
 #: psr-4/ContentTypes.php:36
-#: psr-4/ContentTypes.php:56
+#: psr-4/ContentTypes.php:52
 #: psr-4/Plugin.php:119
 #: psr-4/Plugin.php:154
 msgid "Organizations"
@@ -218,71 +218,55 @@ msgstr ""
 msgid "Uploaded to this organization"
 msgstr ""
 
-#: psr-4/ContentTypes.php:52
-msgid "Logo"
-msgstr ""
-
 #: psr-4/ContentTypes.php:53
-msgid "Set logo"
-msgstr ""
-
-#: psr-4/ContentTypes.php:54
-msgid "Remove logo"
-msgstr ""
-
-#: psr-4/ContentTypes.php:55
-msgid "Use as logo"
-msgstr ""
-
-#: psr-4/ContentTypes.php:57
 msgid "Filter organizations list"
 msgstr ""
 
-#: psr-4/ContentTypes.php:58
+#: psr-4/ContentTypes.php:54
 msgid "Filter by date"
 msgstr ""
 
-#: psr-4/ContentTypes.php:59
+#: psr-4/ContentTypes.php:55
 msgid "Organizations list navigation"
 msgstr ""
 
-#: psr-4/ContentTypes.php:60
+#: psr-4/ContentTypes.php:56
 msgid "Organizations list"
 msgstr ""
 
-#: psr-4/ContentTypes.php:61
+#: psr-4/ContentTypes.php:57
 msgid "Organization published."
 msgstr ""
 
-#: psr-4/ContentTypes.php:62
+#: psr-4/ContentTypes.php:58
 msgid "Organization published privately."
 msgstr ""
 
-#: psr-4/ContentTypes.php:63
+#: psr-4/ContentTypes.php:59
 msgid "Organization reverted to draft."
 msgstr ""
 
-#: psr-4/ContentTypes.php:64
+#: psr-4/ContentTypes.php:60
 msgid "Organization trashed."
 msgstr ""
 
-#: psr-4/ContentTypes.php:65
+#: psr-4/ContentTypes.php:61
 msgid "Organization scheduled."
 msgstr ""
 
-#: psr-4/ContentTypes.php:66
+#: psr-4/ContentTypes.php:62
 msgid "Organization updated."
 msgstr ""
 
-#: psr-4/ContentTypes.php:67
+#: psr-4/ContentTypes.php:63
 msgid "Organization Link"
 msgstr ""
 
-#: psr-4/ContentTypes.php:68
+#: psr-4/ContentTypes.php:64
 msgid "A link to an organization."
 msgstr ""
 
-#: psr-4/ContentTypes.php:87
+#: psr-4/ContentTypes.php:83
 msgctxt "slug"
 msgid "organizations"
 msgstr ""

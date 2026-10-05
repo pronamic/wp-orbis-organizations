@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-02-01T08:16:17+00:00\n"
-"PO-Revision-Date: 2026-10-05T13:03:29+00:00\n"
+"PO-Revision-Date: 2026-10-05T13:14:17+00:00\n"
 "Language: nl_NL\n"
 "X-Generator: Poedit 3.4.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -146,7 +146,7 @@ msgid "Organization Details"
 msgstr "Organisatiedetails"
 
 #: psr-4/ContentTypes.php:36
-#: psr-4/ContentTypes.php:56
+#: psr-4/ContentTypes.php:52
 #: psr-4/Plugin.php:119
 #: psr-4/Plugin.php:154
 msgid "Organizations"
@@ -217,71 +217,55 @@ msgstr "In organisatie invoegen"
 msgid "Uploaded to this organization"
 msgstr "Geüpload naar deze organisatie"
 
-#: psr-4/ContentTypes.php:52
-msgid "Logo"
-msgstr "Logo"
-
 #: psr-4/ContentTypes.php:53
-msgid "Set logo"
-msgstr "Logo instellen"
-
-#: psr-4/ContentTypes.php:54
-msgid "Remove logo"
-msgstr "Logo verwijderen"
-
-#: psr-4/ContentTypes.php:55
-msgid "Use as logo"
-msgstr "Als logo gebruiken"
-
-#: psr-4/ContentTypes.php:57
 msgid "Filter organizations list"
 msgstr "Organisatielijst filteren"
 
-#: psr-4/ContentTypes.php:58
+#: psr-4/ContentTypes.php:54
 msgid "Filter by date"
 msgstr "Filter op datum"
 
-#: psr-4/ContentTypes.php:59
+#: psr-4/ContentTypes.php:55
 msgid "Organizations list navigation"
 msgstr "Organisatielijst navigatie"
 
-#: psr-4/ContentTypes.php:60
+#: psr-4/ContentTypes.php:56
 msgid "Organizations list"
 msgstr "Organisatielijst"
 
-#: psr-4/ContentTypes.php:61
+#: psr-4/ContentTypes.php:57
 msgid "Organization published."
 msgstr "Organisatie gepubliceerd."
 
-#: psr-4/ContentTypes.php:62
+#: psr-4/ContentTypes.php:58
 msgid "Organization published privately."
 msgstr "Organisatie privé gepubliceerd."
 
-#: psr-4/ContentTypes.php:63
+#: psr-4/ContentTypes.php:59
 msgid "Organization reverted to draft."
 msgstr "Organisatie teruggezet naar concept."
 
-#: psr-4/ContentTypes.php:64
+#: psr-4/ContentTypes.php:60
 msgid "Organization trashed."
 msgstr "Organisatie naar prullenbak verplaatst."
 
-#: psr-4/ContentTypes.php:65
+#: psr-4/ContentTypes.php:61
 msgid "Organization scheduled."
 msgstr "Organisatie gepland."
 
-#: psr-4/ContentTypes.php:66
+#: psr-4/ContentTypes.php:62
 msgid "Organization updated."
 msgstr "Organisatie bijgewerkt."
 
-#: psr-4/ContentTypes.php:67
+#: psr-4/ContentTypes.php:63
 msgid "Organization Link"
 msgstr "Organisatielink"
 
-#: psr-4/ContentTypes.php:68
+#: psr-4/ContentTypes.php:64
 msgid "A link to an organization."
 msgstr "Een link naar een organisatie."
 
-#: psr-4/ContentTypes.php:87
+#: psr-4/ContentTypes.php:83
 msgctxt "slug"
 msgid "organizations"
 msgstr "organisaties"
